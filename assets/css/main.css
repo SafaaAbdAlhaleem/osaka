@@ -1,0 +1,10 @@
+.about{
+    background-image: url('./../images/light_dot.jpg');
+}
+:root{
+--primaryColor:#e83e8c;
+
+}
+h4{
+    color:var(--primaryColor);
+}
