@@ -24,3 +24,13 @@ color:var( --primaryColor);
 .portfolio .nav-tabs {
     border-bottom: none;
 }
+
+ .navbar .nav-link{
+    color:black;
+}
+
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color:var(--primaryColor);
+}
