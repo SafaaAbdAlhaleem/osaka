@@ -26,11 +26,35 @@ color:var( --primaryColor);
 }
 
  .navbar .nav-link{
-    color:black;
+    color:white;
 }
 
 
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color:var(--primaryColor);
+}
+
+.hero{
+    height: calc(100vh - 56px);
+}
+.hero
+{
+    background-image: url('./../images/bg.jpg');
+    background-size: cover ;
+    background-position: center -100px;
+
+
+}
+.hero a{
+    color:var(--primaryColor);
+
+}
+
+.hero-content h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.hero-content p{
+    font-size: 24px;
 }
