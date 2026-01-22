@@ -5,7 +5,6 @@
 }
 :root{
 --primaryColor:#e83e8c;
-
 }
 h4{
     color:var(--primaryColor);
@@ -57,4 +56,37 @@ color:var( --primaryColor);
 }
 .hero-content p{
     font-size: 24px;
+}
+
+.Testimonial img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  
+}
+.Testimonial{
+     
+  border: 1px solid #eee;
+}
+
+#carouselExampleIndicators{
+  padding-bottom: 40px;
+}
+
+.carousel-indicators{
+  position: static;
+  margin-top: 25px;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #dcdcdc;
+  opacity: 1;
+  margin: 0 6px;
+}
+
+.carousel-indicators .active{
+  background-color: #000;
 }
